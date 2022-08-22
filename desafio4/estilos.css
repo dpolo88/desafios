@@ -31,17 +31,29 @@
     font-weight: bold;
   }
   
-  img{
-	max-width: 100%;
-	height: auto;
-  }
   .claseCantidad{
 	  width:60px; margin-right: 20px;
   }
   #miTabla{
 	font-size: 14px;
     width: 600px;
+	display: none;
+  }
+  #miTabla tbody{
+	width: 600px; 
   }
   .claseCantidad {
 	  display: none;
   }
+.columnaR1{
+	  width:150px
+}
+.columnaR2{
+	width:100px
+}
+.columnaR3{
+	width:200px
+}
+.columnaR4{
+	width:200px
+}
