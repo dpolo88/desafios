@@ -35,10 +35,12 @@ var obtenerFechaActual = function obtenerFechaActual() {
 };
 
 function insertarFila() {
+
   if (document.getElementById("cantidad").value === '') {
     alert("debe ingresar una cantidad");
     return;
   }
+  document.getElementById('miTabla').style.display = 'block';
 
   var x = document.getElementById('miTabla').insertRow(document.getElementById('miTabla').rows.length);
   var celdaRecurso = x.insertCell(0);
