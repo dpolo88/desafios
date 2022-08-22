@@ -73,5 +73,5 @@ where DATEDIFF(m.fecha, a.fecha) < 0
 order by t.id asc
 
 -- PREGUNTA 8
--- no existe un filtro o validación de las fechas para el registro de avistamientos y muertes
+-- no existe un filtro o validación de las fechas para el registro de avistamientos y muertes, esto se puede evitar con un trigger en mysql o una validacion en el lenguaje de programación escogido
 
