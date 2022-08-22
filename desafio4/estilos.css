@@ -1,0 +1,47 @@
+.centrado {
+	margin: 0 auto;
+	width:600px
+}
+.row{
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	align-content: center;
+	font-family: arial;
+  }
+  
+.columna {
+	padding: 10px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+ }    
+  
+.izquierda, .right {
+	width: 65%;
+	background: whitesmoke;
+}
+  
+  .centro {
+	width: 10%;
+	background: lightblue;
+	font-size: 12px;
+    font-weight: bold;
+  }
+  
+  img{
+	max-width: 100%;
+	height: auto;
+  }
+  .claseCantidad{
+	  width:60px; margin-right: 20px;
+  }
+  #miTabla{
+	font-size: 14px;
+    width: 600px;
+  }
+  .claseCantidad {
+	  display: none;
+  }

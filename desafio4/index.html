@@ -1,22 +1,39 @@
-<!DOCTYPE html>
-<html lang="es">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title></title>
-		<!-- La utilización de librerías JS y/o CSS externo está PERMITIDO -->
-	</head>
-	<body>
-		<!-- TU CÓDIGO AQUÍ -->
-		<style>
-			/*
-				Incluir CSS en este bloque, en vez de un archivo externo .css, está PERMITIDO
-			*/
-		</style>
-		<script type="text/javascript">
-			/*
-				Incluir JS en este bloque, en vez de un archivo externo .js, está PERMITIDO
-			*/
-		</script>
-	</body>
+<html itemscope="" itemType="http://schema.org/WebPage" lang="es">
+    <head><meta charSet="utf-8"/></head>
+<body>
+    <link href="estilos.css?x4" rel="stylesheet">
+
+<div id="contenedor">
+    <div class="centrado">
+        <p>Desafio 4.</p>
+
+        <div class="row">
+            <div class="columna izquierda">
+                <select id="selectRecursos">
+                    <option value="">Seleccionar Recurso</option>
+                </select>
+            </div>
+            <div class="columna centro">
+                <div id="unidadMedida"></div>
+            </div>
+            <div class="columna right">
+                <input id='cantidad' type="text" width="100" class="claseCantidad" />
+                <button onclick="insertarFila()">AGREGAR</button>
+            </div>
+        </div>
+        <br />
+        <table id="miTabla" border="1">
+        <tr>
+            <td>RECURSO</td>
+            <td>CANTIDAD</td>
+            <td>FECHA DE INGRESO</td>
+            <td>ELIMINAR</td>
+        </tr>
+        </table>
+        <br />
+    </div>
+</div>
+
+<script src="script.js?x5"></script>
+</body>
 </html>
